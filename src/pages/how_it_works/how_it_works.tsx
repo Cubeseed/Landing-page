@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./how_works.module.scss"
+import styles from "./how_it_works.module.scss"
 import Image from 'next/image';
 import leftLeaves from "../../icons/left-leaves.svg"
 import rightLeaves from "../../icons/right-leaves.svg"

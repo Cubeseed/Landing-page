@@ -1,6 +1,6 @@
 $small: 400px;
 $medium: 768px;
-$high: 1200px;
+
 
 .main_about_container {
     background: url(../../images/aboutBckgr.svg);
@@ -46,8 +46,7 @@ margin-top: 76px;
 .join_link {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    cursor: pointer !important;   
+    align-items: flex-end; 
     
 }
 
@@ -58,20 +57,22 @@ margin-top: 76px;
     border-radius: 40px;
     margin-right: 40px;
     padding-left: 33px;
+    z-index: 10;
 }
 
 
-.join_link h3{
+.join_wait h3 {
     width: 640px;
     font-family: 'Alternate Gothic ATF';
     font-weight: 900;
     font-size: 62px;
     text-align: center;
     color: #FFFFFF;
+    
 }
 
-.join_link h3:hover{
-    text-decoration: underline !important;
+.join_wait h3:hover {
+    text-decoration: underline;
     cursor: pointer;
 }
 
