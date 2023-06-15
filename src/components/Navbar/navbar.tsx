@@ -5,10 +5,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import hamburgerIcon from "../../icons/menu-icon.svg"
 import xIcon from "../../icons/x-symbol.svg"
+import { useRouter } from 'next/navigation';
+
 
 
 const Navbar: React.FC = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const router = useRouter()
+
+  const handleOnClick = () => {
+      router.push('/join/join')
+  }
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -22,12 +29,12 @@ const Navbar: React.FC = () => {
         <div className={styles.close_btn}>
             <Image src={xIcon} alt='x-symbol' onClick={toggleMenu}/>
         </div>
-        <li><Link href="/about">About</Link></li>
-        <li><Link href="/how">How it works</Link></li>
-        <li><Link href="/features">Features</Link></li>
-        <li><Link href="/testimonial">Testimonial</Link></li>
+        <li><Link href="/">About</Link></li>
+        <li><Link href="/how_it_works/how_it_works">How it works</Link></li>
+        <li><Link href="/features/features">Features</Link></li>
+        <li><Link href="/team/team">Team</Link></li>
       </ul>
-      <button className={styles.waitBtn}>Join Waitlist</button>
+      <button className={styles.waitBtn} onClick={handleOnClick}>Join Waitlist</button>
     </nav>
   );
 };

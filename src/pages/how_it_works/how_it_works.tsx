@@ -13,7 +13,7 @@ const How: React.FC = () => {
 <div>
 <div className={styles.main_header}>
     <div className={styles.header_container}>
-    <Image className={styles.left_leaves} src={leftLeaves} alt='left' /> 
+    <div className={styles.left_leaves} ></div> 
     <div  className={styles.header_title}>
     <h3>How it works</h3> 
     <p>Welcome to Cubeseed!  We are thrilled to have you as part of our virtual marketplace for agricultural trade. Our platform is designed to empower farmers and improve agricultural production while providing security for all parties involved. To ensure a seamless onboarding process, we have outlined the following steps: </p>

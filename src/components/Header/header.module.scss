@@ -1,9 +1,10 @@
+$small: 768px;
+$medium: 1200px;
+
 .main_header {
-    background: url(../../icons/header.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #1C400B;
     width: 100%;
-    height: 467px;
+   height: 547px;
 }
 
 .header_container {
@@ -13,13 +14,11 @@
 .header_title {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
     justify-content: center;
 }
 
 .header_title h3 {
-    width: 693px;
     height: 50px;
     margin-bottom: 19px;
     font-family: 'Inter';
@@ -27,7 +26,6 @@
     font-weight: 600;
     font-size: 46px;
     line-height: 50px;
-    /* identical to box height, or 109% */
     text-align: center;
     color: #FFFFFF;
 }
@@ -35,26 +33,87 @@
 .header_title p {
     width: 667px;
     height: 60px;
-    left: 426px;
-    top: 298px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-
     text-align: center;
-
     color: #FFFFFF;
 }
 
 .left_leaves {
-    margin-top: 43px;
+    background-image: url(../../icons/left-leaves.svg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 400px;
 }
 
 .right_leaves {
-    margin-top: 60px;
     display: flex;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: $medium) {
+    .header_title h3 {
+        width: 693px;
+        margin: auto;
+        margin-bottom: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+    
+    
+    .header_title p {
+        width: 795px;
+        margin: auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+  }
+
+
+@media screen and (max-width: $small) {
+    .header_title h3 {
+        width: 400px;
+        height: 30.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    
+    .header_title p {
+        width: 310.57px;
+        margin: auto;
+        margin-top: 30px;
+        height: 36.6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+  }

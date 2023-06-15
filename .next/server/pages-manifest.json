@@ -1,10 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/features/features": "pages/features/features.html",
-  "/how_it_works/how_it_works": "pages/how_it_works/how_it_works.html",
-  "/": "pages/index.html",
-  "/about/about": "pages/about/about.html",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js",
+  "/team/team": "pages/team/team.js"
 }

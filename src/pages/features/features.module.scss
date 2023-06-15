@@ -1,3 +1,6 @@
+$small: 720px;
+$medium: 1200px;
+
 .main_features_container {
     background: #F9F9F9;
 }
@@ -11,11 +14,9 @@
 .land {
     margin-left: 10rem;
 }
-.land h4 {
+.main_features_container h4 {
     width: 693px;
     height: 50px;
-    left: 42px;
-    top: 671px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -27,12 +28,10 @@
 }
 
 
-.land p {
+.main_features_container p {
     width: 667px;
     margin-top: 13px;
     height: 60px;
-    left: 74px;
-    top: 734px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -57,37 +56,6 @@
 .beans {
     margin-right: 10rem;
 }
-.beans h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.beans p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
-}
 
 
 .beans_picture {
@@ -103,37 +71,6 @@
 
 .resource {
     margin-left: 10rem;
-}
-.resource h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.resource p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
 }
 
 
@@ -151,45 +88,10 @@
 .market {
     margin-right: 10rem;
 }
-.market h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.market p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
-}
-
 
 .market_picture {
     margin-left: 10rem;
 }
-
-
-
 
 .sustainability_main {
     display: flex;
@@ -200,38 +102,6 @@
 .sustainability {
     margin-left: 10rem;
 }
-.sustainability h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.sustainability p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
-}
-
 
 .sustainability_picture {
     margin-right: 10rem;
@@ -248,38 +118,6 @@
 .risk {
     margin-right: 10rem;
 }
-.risk h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.risk p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
-}
-
 
 .risk_picture {
     margin-left: 10rem;
@@ -295,38 +133,6 @@
 .collaborations {
     margin-left: 10rem;
 }
-.collaborations h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.collaborations p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
-}
-
 
 .collaborations_picture {
     margin-right: 10rem;
@@ -341,42 +147,251 @@
 .transparency {
     margin-right: 10rem;
 }
-.transparency h4 {
-    width: 693px;
-    height: 50px;
-    left: 42px;
-    top: 671px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 50px;
-    text-align: center;
-    color: #234816;
-
-}
-
-
-.transparency p {
-    width: 667px;
-    margin-top: 13px;
-    height: 60px;
-    left: 74px;
-    top: 734px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    color: #234816;
-
-}
-
 
 .transparency_picture {
     margin-left: 10rem;
 }
+
+@media screen and (max-width: $medium) {
+    .land_main {
+     display: block;
+    }
+ 
+    .beans_main {
+     display: block;
+     padding-top: 40px;
+    }
+ 
+    .resource_main {
+     display: block;
+     padding-top: 40px;
+    }
+ 
+    .collaborations_main {
+     display: block;
+     padding-top: 40px;
+    }
+ 
+    .market_main {
+     display: block;
+     padding-top: 40px;
+    }
+ 
+    .sustainability_main {
+     display: block;
+     padding-top: 40px;
+    }
+ 
+    .risk_main {
+     display: block;
+     padding-top: 40px;
+    }
+    
+    
+     .transparency_main {
+         display: block;
+         padding-top: 40px;
+         padding-bottom: 50px;
+     
+     }
+ 
+     .land {
+         margin-left: 0rem;
+        
+     }
+ 
+     .beans {
+     margin-right: 0rem;
+ 
+ }
+ 
+ .resource {
+     margin-left: 0rem;
+ 
+ }
+ 
+ .market {
+     margin-right: 0rem;
+     
+ }
+ 
+ .sustainability {
+     margin-left: 0rem;
+  
+ }
+ 
+ .risk {
+     margin-right: 0rem;
+   
+ }
+ 
+ .collaborations {
+     margin-left: 0rem;
+   
+ }
+ 
+ .transparency {
+     margin-right: 0px;
+ }
+ 
+ 
+         .main_features_container h4{
+             margin: auto;
+             width: 100%;
+             height: 50px;
+             font-family: 'Inter';
+             font-style: normal;
+             font-weight: 800;
+             font-size: 30px;
+             line-height: 50px;
+             text-align: center;
+             color: #234816;
+             
+         }
+ 
+         .main_features_container p{
+            width: 100%;
+            height: 60px;
+            margin: auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 33px;
+            text-align: center;
+            color: #234816;
+            padding-bottom: 40px;
+         }
+ 
+         .main_features_container img{
+             display: none;
+         }
+ 
+         
+ 
+ 
+     }
+
+
+@media screen and (max-width: $small) {
+   .land_main {
+    display: block;
+   }
+
+   .beans_main {
+    display: block;
+    padding-top: 40px;
+   }
+
+   .resource_main {
+    display: block;
+    padding-top: 40px;
+   }
+
+   .collaborations_main {
+    display: block;
+    padding-top: 40px;
+   }
+
+   .market_main {
+    display: block;
+    padding-top: 40px;
+   }
+
+   .sustainability_main {
+    display: block;
+    padding-top: 40px;
+   }
+
+   .risk_main {
+    display: block;
+    padding-top: 40px;
+   }
+   
+   
+    .transparency_main {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    
+    }
+
+    .land {
+        margin-left: 0rem;
+       
+    }
+
+    .beans {
+    margin-right: 0rem;
+
+}
+
+.resource {
+    margin-left: 0rem;
+
+}
+
+.market {
+    margin-right: 0rem;
+    
+}
+
+.sustainability {
+    margin-left: 0rem;
+ 
+}
+
+.risk {
+    margin-right: 0rem;
+  
+}
+
+.collaborations {
+    margin-left: 0rem;
+  
+}
+
+.transparency {
+    margin-right: 0px;
+}
+
+
+        .main_features_container h4{
+            margin: auto;
+            width: 400px;
+            height: 50px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 50px;
+            text-align: center;
+            color: #234816;
+        }
+
+        .main_features_container p{
+            margin: auto;
+            width: 400px;
+            height: 60px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            color: #234816;
+        }
+
+        .main_features_container img{
+            display: none;
+        }
+
+        
+
+
+    }
+
+        
 
 
 

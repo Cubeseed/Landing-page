@@ -1,9 +1,17 @@
+$small: 768px;
+$medium: 1200px;
+
 .main_header {
-    background: url(../../icons/header.svg);
+  background-color: #1C400B;
+  width: 100%;
+}
+
+.left_leaves {
+    background-image: url(../../icons/left-leaves.svg);
+    width: 400px;
+    height: 200px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 467px;
 }
 
 .header_container {
@@ -45,6 +53,7 @@
 
 .left_leaves {
     margin-top: 43px;
+    width: 40px;
 }
 
 .right_leaves {
@@ -101,8 +110,8 @@
     background: #1C400B;
     border-radius: 50%;
     position: absolute;
-    left: 260px;
-    top: 660px;
+    left: 290px;
+    top: 600px;
     
 }
 
@@ -148,8 +157,8 @@
     background: #1C400B;
     border-radius: 50%;
     position: absolute;
-    left: 260px;
-    top: 920px;
+    left: 290px;
+    top: 860px;
 }
 
 
@@ -198,8 +207,8 @@
     background: #1C400B;
     border-radius: 50%;
     position: absolute;
-    left: 260px;
-    top: 1240px;
+    left: 290px;
+    top: 1190px;
 }
 
 .steps_transact_container p{
@@ -244,8 +253,8 @@
     background: #1C400B;
     border-radius: 50%;
     position: absolute;
-    left: 260px;
-    top: 1860px;
+    left: 290px;
+    top: 1800px;
 }
 
 .steps_management_container p {
@@ -291,8 +300,8 @@
     background: #1C400B;
     border-radius: 50%;
     position: absolute;
-    left: 260px;
-    top: 2210px;
+    left: 290px;
+    top: 2160px;
 }
 
 .steps_support_container p{
@@ -344,5 +353,448 @@
     margin-top: 12px;
     padding-bottom: 62px;
 }
+
+@media screen and (max-width: $medium) {
+    .header_title h3 {
+        width: 325px;
+        height: 48.15px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .header_title p {
+        width: 795px;
+        height: 148px;
+        left: 21px;
+        top: 243.86px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        /* or 165% */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .steps_register_container {
+        width: 125px;
+        height: 125px;
+        left: 13px;
+        top: 575px;
+        
+    }
+
+    .steps_register_container p {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+      
+    }
+
+    .how_main_container h3 {     
+            width: 346.09px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 29px;
+            color: #1C400B;
+            margin-left: 50px;
+    }
+
+    .how_register_container {
+        width: 100%;
+        height: 180px;
+        background: #FEEFD9;
+        border-radius: 80px;
+    }
+
+    .how_register_container p {
+        width: 600px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+        margin-left: 50px;
+         }
+
+         .steps_familiar_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 845px;
+            
+        }
+    
+        .steps_familiar_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_familiar_container {
+            width: 100%;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+
+   
+
+        .how_familiar_container p {
+            width: 600px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+            margin-top: 24px;
+             }
+
+        .steps_transact_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 1170px;
+            
+        }
+    
+        .steps_transact_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_transact_container {
+            width: 100%;
+            height: 580px;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+    
+        .how_transact_container ul li {
+            width: 600px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+            margin-top: 24px;
+             }
+
+        .steps_management_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 1835px;
+            
+        }
+    
+        .steps_management_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_management_container {
+            width: 100%;
+            height: 280px;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+    
+        .how_management_container p {
+            width: 600px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+             }
+
+        .steps_support_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 2215px;
+            
+        }
+    
+        .steps_support_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_support_container {
+            width: 100%;
+            height: 180px;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+    
+        .how_support_container p {
+            width: 600px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+             }
+
+
+             .how_main p {
+                width: 700px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 24px;
+                text-align: center;
+                color: #000000;
+
+             }
+    
+
+  }
+
+@media screen and (max-width: $small) {
+    .header_title h3 {
+        width: 325px;
+        height: 48.15px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .header_title p {
+        width: 305px;
+        height: 142.51px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .steps_register_container {
+        width: 125px;
+        height: 125px;
+        left: 13px;
+        top: 575px;
+        
+    }
+
+    .steps_register_container p {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+      
+    }
+
+    .how_main_container h3 {     
+            width: 346.09px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 29px;
+            color: #1C400B;
+            margin-left: 50px;
+    }
+
+    .how_register_container {
+        width: 100%;
+        height: 180px;
+        background: #FEEFD9;
+        border-radius: 80px;
+    }
+
+    .how_register_container p {
+        width: 280px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: #000000;
+        margin-left: 50px;
+         }
+
+         .steps_familiar_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 845px;
+            
+        }
+    
+        .steps_familiar_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_familiar_container {
+            width: 100%;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+
+   
+
+        .how_familiar_container p {
+            width: 340px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+            margin-top: 12px;
+             }
+
+        .steps_transact_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 1170px;
+            
+        }
+    
+        .steps_transact_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_transact_container {
+            width: 100%;
+            height: 580px;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+    
+        .how_transact_container ul li {
+            width: 340px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+            margin-top: 12px;
+             }
+
+        .steps_management_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 1835px;
+            
+        }
+    
+        .steps_management_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_management_container {
+            width: 100%;
+            height: 280px;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+    
+        .how_management_container p {
+            width: 340px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+             }
+
+        .steps_support_container {
+            width: 125px;
+            height: 125px;
+            left: 13px;
+            top: 2215px;
+            
+        }
+    
+        .steps_support_container p {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .how_support_container {
+            width: 100%;
+            height: 180px;
+            background: #FEEFD9;
+            border-radius: 80px;
+        }
+    
+        .how_support_container p {
+            width: 340px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            color: #000000;
+            margin-left: 50px;
+             }
+
+
+             .how_main p {
+                width: 100%;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                text-align: center;
+                color: #000000;
+
+             }
+    
+
+  }
 
 

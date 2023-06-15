@@ -22,10 +22,13 @@ const Footer: React.FC = () => {
                             <a>About</a>
                         </li>
                         <li>
-                            <a>Features</a>
+                            <a>Services</a>
                         </li>
                         <li>
-                            <a>Testimonials</a>
+                            <a>Contact Us</a>
+                        </li>
+                        <li>
+                            <a>Team</a>
                         </li>
                     </ul> 
                 </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './about.module.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
-import { useEffect} from "react";
 import LogoAbout from "../../icons/logoAbout.svg"
 import tractor from "../../images/tractor.svg"
 import security from "../../icons/security.svg"
@@ -20,16 +19,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import Caroussel from '@/components/Company_caroussel/caroussel';
 
 
+
 const About: React.FC = () => {
     const [isSlideIn, setSlideIn] = React.useState(false);
 
-
-    
-
- 
-
   return (
   <div>
+
     <div className={styles.main_about_container}>
       <div className={styles.about_container}>
       <h3>Welcome to</h3>
