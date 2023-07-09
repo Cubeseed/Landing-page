@@ -1,0 +1,29 @@
+Feature Priority:
+
+Low:
+Analytic reporting (aside from counting number of transactions)
+Multi-format conversion (requires research and/or specialists)
+Collaboration controls (vague)
+Distribution Channels (won't matter until we have made a significant footprint)
+Dedicated support (requres staff, is expensive)
+Customization
+Annotation (already supported via 3rd-party apps and downloadable PDFs)
+Recommendations (requires tons of metadata and a complex AI-powered algorithm)
+
+Mid:
+Data Security and privacy (certain demographic data might be lost)
+DRM
+Reader interaction and feedback section
+cross-device sync (important but brings challanges for scalability, in addition to having to re-implement the same feature on different platforms)
+Social Sharing (not too difficult to implement)
+
+High:
+Uploading content as a publisher
+Metadata (we should collect any data we can, store it in database for the time being)
+User-friendly interface
+DRM
+Social Sharing (not too difficult to implement)
+Offline reading (accessability)
+Formatting/Multi-language support (translator API)
+
+

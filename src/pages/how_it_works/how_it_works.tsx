@@ -1,30 +1,39 @@
 import React from 'react';
 import styles from "./how_it_works.module.scss"
 import Image from 'next/image';
-import leftLeaves from "../../icons/left-leaves.svg"
 import rightLeaves from "../../icons/right-leaves.svg"
+import { useRouter } from 'next/router';
 
 
 
 const How: React.FC = () => {
+    const router = useRouter()
+
+    const handleOnClick = () => {
+        router.push('/join/join')
+    }
  
 
   return (
 <div>
 <div className={styles.main_header}>
+<div className={styles.left_leaves} >
     <div className={styles.header_container}>
-    <div className={styles.left_leaves} ></div> 
-    <div  className={styles.header_title}>
+    <div className={styles.header_title}>
     <h3>How it works</h3> 
     <p>Welcome to Cubeseed!  We are thrilled to have you as part of our virtual marketplace for agricultural trade. Our platform is designed to empower farmers and improve agricultural production while providing security for all parties involved. To ensure a seamless onboarding process, we have outlined the following steps: </p>
     </div>
     </div>
+    </div>   
     <div className={styles.right_leaves}>
-    <Image src={rightLeaves} alt='leaves'/>     
+    <Image src={rightLeaves} alt='leaves'/>   
+  
     </div>   
 </div>
 
+
 <div className={styles.how_main_container}>
+<div className={styles.how_container}>
     <div className={styles.steps_register_container}>
         <p>Step 1</p>
     </div>
@@ -69,10 +78,11 @@ const How: React.FC = () => {
         <h3>Get support when needed </h3>
         <p>We understand that you may have questions or encounter challenges while using our platform. Our support team is available to assist you 24/7. You can reach out to us via email, live chat, or phone call.</p>
     </div>
+    </div>
     <div className={styles.how_main}>
         <p>We hope this onboarding process will help you get started on our platform with ease. We look forward to working with you to improve the agricultural industry. </p>
     <div className={styles.button_waitlist}>
-        <button>Join Waitlist</button>
+        <button onClick={handleOnClick}>Join Waitlist</button>
     </div> 
     </div>
 </div> 

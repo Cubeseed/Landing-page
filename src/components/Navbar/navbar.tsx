@@ -33,6 +33,7 @@ const Navbar: React.FC = () => {
         <li><Link href="/how_it_works/how_it_works">How it works</Link></li>
         <li><Link href="/features/features">Features</Link></li>
         <li><Link href="/team/team">Team</Link></li>
+        <button className={styles.waitBtn_small_screen} onClick={handleOnClick}>Join Waitlist</button>
       </ul>
       <button className={styles.waitBtn} onClick={handleOnClick}>Join Waitlist</button>
     </nav>

@@ -47,11 +47,11 @@ const Features: React.FC = () => {
       }, []);
 
  
-
   return (
     <>
     <Header />
-        <div className={styles.main_features_container}>
+    <div className={styles.main_features_container}>
+    <div className={styles.features_container}>
     <AnimatePresence>
     <motion.div  
       initial="hidden"
@@ -166,6 +166,9 @@ const Features: React.FC = () => {
             </motion.div> 
         
             </AnimatePresence>
+    
+    </div>    
+   
         </div>
     </>
   );

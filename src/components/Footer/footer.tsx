@@ -4,6 +4,7 @@ import Image from 'next/image';
 import instagram from "../../icons/instagram.svg"
 import twitter from "../../icons/twitter.svg"
 import facebook from "../../icons/facebook.svg"
+import Link from 'next/link'
 
 
 
@@ -18,18 +19,11 @@ const Footer: React.FC = () => {
             <div className={styles.footer_right}>
                 <div>
                     <ul>
-                        <li>
-                            <a>About</a>
-                        </li>
-                        <li>
-                            <a>Services</a>
-                        </li>
-                        <li>
-                            <a>Contact Us</a>
-                        </li>
-                        <li>
-                            <a>Team</a>
-                        </li>
+                        <li><Link href="/about/about">About</Link></li>
+                        <li><Link href="/features/features">Features</Link></li>
+                        <li><Link href="/how_it_works/how_it_works">How it Works</Link></li>
+                        <li><Link href="/contact_us/contact_us">Contact Us</Link></li>
+                        <li><Link href="/team/team">Team</Link></li>
                     </ul> 
                 </div>
                 <div>
