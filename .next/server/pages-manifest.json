@@ -1,9 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/join/join": "pages/join/join.js",
-  "/join_provider/join_provider": "pages/join_provider/join_provider.js",
-  "/join_farmers/join_farmers": "pages/join_farmers/join_farmers.js",
-  "/join_buyer/join_buyer": "pages/join_buyer/join_buyer.js"
+  "/_error": "pages/_error.js"
 }
