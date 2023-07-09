@@ -6,7 +6,6 @@ $high: 1200px;
     background: url(../../images/footer.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 460px;
     width: 100%;
 }
 
@@ -33,10 +32,11 @@ color: #FFFFFF;
     width: 123px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     color: #FFFFFF;
     line-height: 50px;
+    text-decoration: none;
     }
 
 .footer_left h3 {

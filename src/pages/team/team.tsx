@@ -25,10 +25,11 @@ const Team: React.FC = () => {
 <div>
 <div className={styles.main_header}>
     <div className={styles.header_container}>
-    <Image className={styles.left_leaves} src={leftLeaves} alt='left' /> 
+    <div className={styles.left_leaves} >
     <div  className={styles.header_title}>
     <h3>Team</h3> 
-    <p>Cubeseed is a team of highly experienced experts from diverse backgrounds and industries who are committed to improving the deteriorating state of the agricultural ecosystem in Africa. With a shared passion for sustainable development, the Cubeseed team is working tirelessly to create innovative solutions that address the various challenges facing agriculture in Africa, including limited access to credit, quality input, market and also climate change. Through their collective efforts, the team is dedicated to building a more resilient and sustainable future for African farmers and stakeholders.</p>
+    <p>Cubeseed is a team of highly experienced experts from diverse backgrounds and industries who are committed to improving the deteriorating state of the agricultural ecosystem in Africa.</p>
+    </div>
     </div>
     </div>
     <div className={styles.right_leaves}>

@@ -3,24 +3,36 @@ $medium: 1200px;
 
 .main_features_container {
     background: #F9F9F9;
+ 
+}
+
+.features_container {
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+ 
+
 }
 
 .land_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
+    width: 100%;
+    
 }
 
 .land {
-    margin-left: 10rem;
+    margin-right: 2rem;
+    width: 100%;
+
 }
 .main_features_container h4 {
-    width: 693px;
-    height: 50px;
+    width: 100%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 46px;
+    font-size: 36px;
     line-height: 50px;
     text-align: center;
     color: #234816;
@@ -29,13 +41,14 @@ $medium: 1200px;
 
 
 .main_features_container p {
-    width: 667px;
-    margin-top: 13px;
+   width: 90%;
+   margin: auto;
+    margin-top: 12px;
     height: 60px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 34px;
     text-align: center;
     color: #234816;
@@ -43,113 +56,111 @@ $medium: 1200px;
 }
 
 
-.land_picture {
-    margin-right: 10rem;
-}
-
 .beans_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
+    width: 90%;
+    
 }
 
 .beans {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 
 .beans_picture {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 
 .resource_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
 }
 
 .resource {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 
 .resource_picture {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 
 .market_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
 }
 
 .market {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 .market_picture {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 .sustainability_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
 }
 
 .sustainability {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 .sustainability_picture {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 
 
 .risk_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
 }
 
 .risk {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 .risk_picture {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 
 .collaborations_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
 }
 
 .collaborations {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 .collaborations_picture {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 .transparency_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
 }
 
 .transparency {
-    margin-right: 10rem;
+    margin-left: 2rem;
 }
 
 .transparency_picture {
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 @media screen and (max-width: $medium) {
@@ -250,7 +261,7 @@ $medium: 1200px;
          }
  
          .main_features_container p{
-            width: 100%;
+            width: 90%;
             height: 60px;
             margin: auto;
             font-family: 'Inter';
@@ -260,7 +271,7 @@ $medium: 1200px;
             line-height: 33px;
             text-align: center;
             color: #234816;
-            padding-bottom: 40px;
+            padding-bottom: 60px;
          }
  
          .main_features_container img{
@@ -360,9 +371,6 @@ $medium: 1200px;
             margin: auto;
             width: 400px;
             height: 50px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 800;
             font-size: 24px;
             line-height: 50px;
             text-align: center;
@@ -373,11 +381,8 @@ $medium: 1200px;
             margin: auto;
             width: 400px;
             height: 60px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
             font-size: 14px;
-            line-height: 18px;
+            line-height: 20px;
             text-align: center;
             color: #234816;
         }

@@ -1,0 +1,132 @@
+$small: 768px;
+$medium: 1200px;
+
+.main_header {
+    background-color: #1C400B;
+    width: 100%;
+   height: 547px;
+}
+
+.header_container {
+    display: flex;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.header_title h3 {
+    height: 50px;
+    margin-bottom: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header_title h4 {
+    width: 667px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.left_leaves {
+    background-image: url(../../icons/left-leaves.svg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 400px;
+}
+
+.right_leaves {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 42px;
+}
+
+.main_contact p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: $medium) {
+    .header_title h3 {
+        width: 693px;
+        margin: auto;
+        margin-bottom: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+    
+    
+    .header_title h4 {
+        width: 795px;
+        margin: auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+  }
+
+
+@media screen and (max-width: $small) {
+    .header_title h3 {
+        width: 400px;
+        height: 30.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    
+    .header_title h4 {
+        width: 310.57px;
+        margin: auto;
+        margin-top: 30px;
+        height: 36.6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+  }
