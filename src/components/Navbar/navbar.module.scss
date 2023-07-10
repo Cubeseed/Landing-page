@@ -66,6 +66,10 @@ $high: 1200px;
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.23);
   }
 
+  .waitBtn_small_screen {
+      display: none;
+  }
+
   @media screen and (max-width: $high) {
     .waitBtn {
       display: none;
@@ -144,6 +148,22 @@ $high: 1200px;
   @media screen and (max-width: $medium) {
     .waitBtn {
       display: none;
+    }
+
+    .waitBtn_small_screen {
+      width: 150px;
+      height: 40px;
+      background: #FAD24C;
+      border-radius: 40px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      color: #1C400B;
+      cursor: pointer;
+      margin-right: 56px;
     }
 
     .logo {
