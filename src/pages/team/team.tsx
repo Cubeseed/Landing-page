@@ -13,7 +13,7 @@ import Indraja from "../../team-images/Indraja.svg"
 import Shivangi from "../../team-images/Shivangi.svg"
 import Shuaixin from "../../team-images/Shuaixin.svg"
 import Sebastian from "../../team-images/Sebastian.svg"
-import Zsoldos from "../../team-images/Zsoldos.png"
+import Zsoldos from "../../team-images/Zsoldos.svg"
 import Elias from "../../team-images/Elias.svg"
 
 
