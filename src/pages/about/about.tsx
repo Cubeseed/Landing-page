@@ -17,11 +17,19 @@ import producer from "../../images/farm-producer.svg"
 import buyer from "../../images/farm-buyer.svg"
 import Carousel from 'react-bootstrap/Carousel';
 import Caroussel from '@/components/Company_caroussel/caroussel';
-
+import { useRouter } from 'next/navigation';
 
 
 const About: React.FC = () => {
     const [isSlideIn, setSlideIn] = React.useState(false);
+
+    const router = useRouter()
+
+    const handleOnClick = () => {
+        router.push('/join/join')
+    }
+  
+
 
   return (
   <div>
@@ -35,7 +43,7 @@ const About: React.FC = () => {
       </div>
            <div className={styles.join_link}>
             <div className={styles.join_wait}>
-                <h3>Join Waitlist Now</h3>
+                <h3 onClick={handleOnClick}>Join Waitlist Now</h3>
                 <span>for free premium status your first year!</span>
             </div>
            </div>
